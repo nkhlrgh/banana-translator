@@ -1,2 +1,5 @@
-var username = prompt('Give us your name ');
-alert('Hello! ' + username);
+var btn = document.querySelector("button");
+document.addEventListener('click', clickHandler)
+function clickHandler() {
+    console.log(btn);
+}
