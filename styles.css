@@ -1,14 +1,45 @@
+@import url("https://fonts.googleapis.com/css2?family=Ranchers&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap");
+
+:root {
+  --primary-color: #1e3a8a;
+  --secondary-color: #fcd34d;
+}
+
+#img-container {
+  display: block;
+  margin: auto;
+  max-width: 500px;
+}
+
+h1 {
+  font-family: "Ranchers", cursive;
+  text-align: center;
+}
+
+#btn {
+  display: block;
+  margin: 1rem auto;
+}
+
 textarea {
   display: block;
+  border: 2px solid var(--secondary-color);
   height: 10vh;
   width: 80%;
-  margin: 1rem;
+  margin: 1rem auto;
   padding: 1rem;
+  border-radius: 1rem;
+  font-family: "Josefin Sans", sans-serif;
+  font-size: larger;
 }
 #output {
-  border: 1px solid black;
+  border: 2px solid var(--primary-color);
   height: 10vh;
   width: 80%;
-  margin: 1rem;
+  margin: 1rem auto;
   padding: 1rem;
+  border-radius: 1rem;
+  font-family: "Josefin Sans", sans-serif;
+  font-size: larger;
 }
