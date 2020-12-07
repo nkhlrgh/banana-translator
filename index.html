@@ -3,12 +3,29 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        textarea {
+            display: block;
+            height: 10vh;
+            width: 80%;
+            margin: 1rem;
+            padding: 1rem;
+        }
+        #output {
+            border:1px solid black;
+            height: 10vh;
+            width: 80%;
+            margin: 1rem;
+            padding: 1rem;
+        }
+    </style>
     <title>banana translator</title>
 </head>
 <body>
     <h1>Talk banana</h1>
     <button style="display: block; margin: 1rem;">Translate</button>
-    <textarea name="input" cols="30" rows="5" placeholder="Write your sentence here">I am Ironman</textarea>
+    <textarea id="input" cols="30" rows="5" placeholder="Write your sentence here"></textarea>
+    <div id="output"></div>
     <script src="app.js"></script>
 </body>
 </html>
