@@ -1,5 +1,12 @@
-var btn = document.querySelector("button");
-document.addEventListener('click', clickHandler)
+var btnInput = document.querySelector("button");
+
+var textInput = document.querySelector("textarea[name='input']");
+
+console.log(textInput);
+
 function clickHandler() {
-    console.log(btn);
+    console.log(btnInput);
+    console.log(textInput.value);
 }
+
+btnInput.addEventListener('click', clickHandler)
