@@ -1,45 +1,62 @@
-@import url("https://fonts.googleapis.com/css2?family=Ranchers&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap");
-
 :root {
-  --primary-color: #1e3a8a;
-  --secondary-color: #fcd34d;
+  --primary-color: #fcd34d;
+  --secondary-yellow: #fde68a;
+  --button-blue: #3b82f6;
+  /* --button-border: #1e3a8a; */
 }
 
-#img-container {
-  display: block;
-  margin: auto;
-  max-width: 500px;
+body {
+  margin: 0px;
+  background-color: var(--primary-color);
 }
 
 h1 {
-  font-family: "Ranchers", cursive;
+  margin: 0px;
+  padding: 1.5rem;
   text-align: center;
+}
+
+.container {
+  max-width: 600px;
+  margin: 2rem auto;
+}
+
+#input {
+  display: block;
+  margin: 1rem auto;
+  min-height: 20vh;
+  width: 100%;
+  border-radius: 5px;
+  padding: 1rem;
+  box-sizing: border-box;
+  background-color: var(--secondary-yellow);
+  border: 2px solid black;
+  font-size: medium;
+  resize: none;
+}
+
+button:hover {
+  background-color: var(--button-blue);
+  color: white;
 }
 
 #btn {
   display: block;
   margin: 1rem auto;
+  padding: 0.5rem 1rem;
+  border: 2px solid var(--button-blue);
+  border-radius: 6px;
+  font-size: medium;
 }
 
-textarea {
-  display: block;
-  border: 2px solid var(--secondary-color);
-  height: 10vh;
-  width: 80%;
-  margin: 1rem auto;
-  padding: 1rem;
-  border-radius: 1rem;
-  font-family: "Josefin Sans", sans-serif;
-  font-size: larger;
-}
 #output {
-  border: 2px solid var(--primary-color);
-  height: 10vh;
-  width: 80%;
+  display: block;
   margin: 1rem auto;
+  border: 2px solid black;
+  min-height: 20vh;
+  border-radius: 5px;
   padding: 1rem;
-  border-radius: 1rem;
-  font-family: "Josefin Sans", sans-serif;
-  font-size: larger;
+  box-sizing: border-box;
+  background-color: var(--secondary-yellow);
+  font-size: medium;
 }
