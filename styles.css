@@ -1,19 +1,24 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap");
+
 :root {
   --primary-color: #fcd34d;
   --secondary-yellow: #fde68a;
   --button-blue: #3b82f6;
-  /* --button-border: #1e3a8a; */
 }
 
 body {
   margin: 0px;
   background-color: var(--primary-color);
+  font-family: "Nunito", sans-serif;
 }
 
 h1 {
   margin: 0px;
   padding: 1.5rem;
   text-align: center;
+  background-color: var(--button-blue);
+  color: var(--primary-color);
+  border-bottom-right-radius: 2rem;
 }
 
 .container {
@@ -31,7 +36,8 @@ h1 {
   box-sizing: border-box;
   background-color: var(--secondary-yellow);
   border: 2px solid black;
-  font-size: medium;
+  font-family: "Nunito", sans-serif;
+  font-size: 14px;
   resize: none;
 }
 
@@ -46,7 +52,9 @@ button:hover {
   padding: 0.5rem 1rem;
   border: 2px solid var(--button-blue);
   border-radius: 6px;
-  font-size: medium;
+  font-size: small;
+  font-family: "Nunito", sans-serif;
+  font-weight: bold;
 }
 
 #output {
@@ -54,9 +62,28 @@ button:hover {
   margin: 1rem auto;
   border: 2px solid black;
   min-height: 20vh;
+  max-height: 20vh;
   border-radius: 5px;
   padding: 1rem;
   box-sizing: border-box;
   background-color: var(--secondary-yellow);
-  font-size: medium;
+  overflow: scroll;
+}
+
+footer {
+  margin-top: 3.6rem;
+  padding: 1.5rem;
+  text-align: center;
+  background-color: var(--button-blue);
+  color: var(--primary-color);
+  border-top-right-radius: 2rem;
+  margin-block-start: 5.5rem;
+  margin-block-end: 0px;
+  font-size: 1.25rem;
+  font-weight: bold;
+}
+
+a {
+  text-decoration: none;
+  color: var(--primary-color);
 }
