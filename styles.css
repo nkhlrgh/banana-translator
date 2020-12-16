@@ -78,8 +78,10 @@ footer {
   border-top-right-radius: 2rem;
   font-size: 1.25rem;
   font-weight: bold;
-  position: absolute;
+  position: fixed;
   bottom: 0px;
+  left: 0px;
+  right: 0px;
   box-sizing: border-box;
   width: 100vw;
 }
